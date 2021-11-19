@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta http-equiv="content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <title>Информация за потребителя</title>
+    <link href="./homework2.css" rel="stylesheet">
+    <script src="./zodiac.js" charset="UTF-8"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h2>Информация за потребителя</h2>
+    </header>
+
+    <div class="container">
+        <main>
+            <form action="./register.php" class="informationForm" method="POST" enctype="multipart/form-data">
+                <label for="firstName"> Собствено име: </label>
+                <input type="text" id="firstName" name="firstName" maxlength="128" required>
+
+                <label for="lastName"> Фамилия: </label>
+                <input type="text" id="lastName" name="lastName" maxlength="128" required>
+
+                <label for="specialty"> Специалност: </label>
+                <input type="text" id="specialty" name="specialty" minlength="2" maxlength="128" required>
+
+                <label for="year"> Година: </label>
+                <input type="number" id="year" name="year" min="1" max="20" required>
+
+                <label for="facultyNumber"> Факултетен номер: </label>
+                <input type="number" id="facultyNumber" name="facultyNumber" min="1" max="99999999999999999999"
+                    required>
+
+                <label for="groupNumber"> Номер на група: </label>
+                <input type="number" id="groupNumber" name="groupNumber" min="1" max="20" required>
+
+                <label for="birthDate"> Дата на раждане: </label>
+                <input type="date" id="birthDate" name="birthDate" min="1930-01-01" max="2003-12-31"
+                    oninput="zodiacOutput()" required>
+
+                <label for="zodiac"> Зодиакален знак: </label>
+                <input type="text" id="zodiac" name="zodiac" readonly>
+
+                <label for="link"> Линк: </label>
+                <input type="url" id="link" name="link" minlength="10" maxlength="80"
+                    placeholder="http://www.example.com" required>
+
+                <label for="photo"> Снимка: </label>
+                <input type="file" id="photo" name="photo" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
+
+                <label for="motivation"> Мотивация за кандидатстване: </label>
+                <textarea class="motivation" name="motivation" maxlength="1024"
+                    placeholder="Вашата мотивация за кандидатстване..." required></textarea>
+
+                <input type="submit" value="Запиши">
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

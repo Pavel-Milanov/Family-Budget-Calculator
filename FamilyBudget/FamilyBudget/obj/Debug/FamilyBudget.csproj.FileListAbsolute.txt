@@ -1,0 +1,16 @@
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\bin\Debug\FamilyBudget.exe.config
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\bin\Debug\FamilyBudget.exe
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\bin\Debug\FamilyBudget.pdb
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.Form1.resources
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.Properties.Resources.resources
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.csproj.GenerateResource.cache
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.csproj.CoreCompileInputs.cache
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.exe
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.pdb
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.AddMoney.resources
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.RemoveMoney.resources
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.csproj.ResolveComReference.cache
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.Edit.resources
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\bin\Debug\SampleDatabase.mdf
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\bin\Debug\SampleDatabase_log.ldf
+D:\University\Praktika c# desktop\FamilyBudget\FamilyBudget\obj\Debug\FamilyBudget.csproj.AssemblyReference.cache
